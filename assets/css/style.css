@@ -64,7 +64,9 @@
         border: solid 1px; 
         margin: .8rem; 
         padding: .5rem;
-    }
+    } 
+
+    /*SESSAO MEUS PROJETOS*/
 
     .projects{
         padding: 5vh 0vh  5vh 0vh;  
@@ -73,7 +75,7 @@
     
     .lista-projects {
         display: grid; 
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         list-style: none;
         text-align: center;  
         font-weight: bold;
@@ -82,7 +84,28 @@
     .item-lista-project {
         border: solid 1px; 
         margin: .8rem; 
-        padding: .5rem;
+        padding: .5rem;   
+    } 
+
+    #img-prj{
+        height: 7rem;
     }
+
+    
+
+    /* RODAPÉ */ 
+    footer {
+        background-color: black;
+        text-align: center; 
+        font-size: 1rem; 
+        color: white; 
+    } 
+    .lista-rodape {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-decoration: none; 
+        list-style: none; 
+        text-align: center; 
+    } 
 }   
 
