@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+} 
+
+@media screen and (max-width: 768px){
+    .inicio{
+        background-color: #333; 
+        padding: 0vh 0vh  25vh 0vh; 
+        
+    } 
+
+    .menu-lista{
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+        list-style: none;
+        padding-top: 1rem;
+        padding-bottom: 1rem; 
+        text-align: center; 
+        justify-items:center; 
+        align-items: center;  
+        margin: 0;  
+        background-color: #999;
+    }  
+
+    .menu-item{
+        border: solid 1px;  
+        padding: .9rem;  
+        border-radius: .9rem;
+    }
+    .saudacao{
+        text-align: center; 
+        justify-items: center; 
+        align-content: center; 
+        margin-top:  10rem; 
+        padding: .8rem;
+    } 
+
+    .parag{
+        margin-top: -35px ;
+        text-align: center; 
+        padding: 2rem;
+    }  
+
+    /* SESSÃO SOBRE MIM (ABOUT)*/
+
+    .about{
+        padding: 5vh 0vh  5vh 0vh;  
+        background-color: orange;
+    }
+    .lista {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        list-style: none;
+        text-align: center;  
+        font-weight: bold;
+        padding: 1rem 2rem 1rem 2rem;   
+    } 
+    .item-lista {
+        border: solid 1px; 
+        margin: .8rem; 
+        padding: .5rem;
+    }
+
+    .projects{
+        padding: 5vh 0vh  5vh 0vh;  
+        background-color: #888;
+    } 
+    
+    .lista-projects {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        list-style: none;
+        text-align: center;  
+        font-weight: bold;
+        padding: 1rem 2rem 1rem 2rem;   
+    } 
+    .item-lista-project {
+        border: solid 1px; 
+        margin: .8rem; 
+        padding: .5rem;
+    }
+}   
+
