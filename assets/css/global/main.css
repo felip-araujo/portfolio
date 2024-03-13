@@ -16,8 +16,7 @@
     .content-home{
         /* background-color: #903;  */
         /* background-image: linear-gradient(to top, #eeeeee00, 30%, black), url(/assets/css/image/programming-background-.jpg); */
-        background-image: url(/../assets/css/image/programming-background-.jpg); 
-         
+        background-image: url(../assets/css/image/programming-background-.jpg); 
         text-align: center;
         padding: 8vh; 
         margin: .8rem; 
