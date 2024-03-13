@@ -17,7 +17,7 @@
         background-color: #222;
         text-align: center;
         padding: 10vh; 
-        margin: 1.5rem; 
+        margin: .8rem; 
         border-radius: 1rem;
     } 
 
@@ -26,6 +26,12 @@
         font-size: 1.8rem;
         font-weight: 300;
     } 
+
+    .description{
+        color: #eee; 
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
 
     .profile{
         width: 120px; 
