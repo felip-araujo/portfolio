@@ -16,7 +16,9 @@
     .content-home{
         background-color: #222;
         text-align: center;
-        padding: 10vh;
+        padding: 10vh; 
+        margin: 1.5rem; 
+        border-radius: 1rem;
     } 
 
     .title {
@@ -26,7 +28,7 @@
     } 
 
     .profile{
-        width: 130px; 
+        width: 120px; 
         border-radius: 10rem;
     }
 
