@@ -14,7 +14,10 @@
         
     } 
     .content-home{
-        background-color: #222;
+        /* background-color: #903;  */
+        /* background-image: linear-gradient(to top, #eeeeee00, 30%, black), url(/assets/css/image/programming-background-.jpg); */
+        background-image: url(/assets/css/image/programming-background-.jpg); 
+         
         text-align: center;
         padding: 8vh; 
         margin: .8rem; 
@@ -24,7 +27,8 @@
     .title {
         color: white;
         font-size: 1.8rem;
-        font-weight: 300;
+        font-weight: 300; 
+        margin-top: 5px;
     } 
 
     .description{
