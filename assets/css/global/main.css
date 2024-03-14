@@ -12,11 +12,12 @@
 @media screen and (max-width: 767px) {
 
     .content-home{
-        background-image: url(/assets/css/image/programming-background-.jpg);
+        
+        background-image: linear-gradient(to left,  rgb(51, 3, 51), 80%, rgb(0, 0, 0));
         text-align: center;
         padding: 8vh; 
-        margin: .8rem; 
-        border-radius: 1rem;
+         
+        
     } 
 
     .title {
