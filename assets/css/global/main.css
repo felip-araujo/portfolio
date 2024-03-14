@@ -44,14 +44,14 @@
 /* tablet */
 @media screen and (min-width:768px) and (max-width: 1023px) {
     body{
-       /* visibility: hidden; */
+       visibility: hidden;
     }
 }
 
 /* desktop */
 @media screen and (min-width:1024px) {
     body{
-        /* visibility: hidden; */
+        visibility: hidden;
     }
 }
 
