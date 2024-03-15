@@ -43,6 +43,7 @@
        
     
     }
+
     .minicard{  
         text-align: center;
         border-radius: .2rem;
@@ -51,10 +52,29 @@
         padding: 8px; 
         margin-top: 15px; 
         margin-right: 5px; 
-        margin-left: 0px;
         width: 50%; 
-        display: flex;
+       
+    } 
+
+    /* Definindo a animação de entrada */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
     }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Aplicando a animação aos elementos desejados */
+  .title,
+  .description,
+  .minicard {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
 
 }
 
