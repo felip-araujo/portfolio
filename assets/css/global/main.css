@@ -39,17 +39,17 @@
 
     .ability {
         display: flex;
-        border-top: 1.8px solid white ;
-        margin-top: 20px;
-        margin-left: 0px;
+        text-align: center;
+    
     }
-    .minicard{ 
+    .minicard{  
+        text-align: center;
         border-radius: .2rem;
         background-color: #eee ;
         color: #222; 
         padding: 8px; 
         margin-top: 15px; 
-        margin-left: 10px;
+        margin-right: 5px;
         width: 50%;
     
     }
