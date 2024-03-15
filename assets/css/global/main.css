@@ -12,12 +12,9 @@
 @media screen and (max-width: 767px) {
 
     .content-home{
-        
         background-image: linear-gradient(to left,  rgb(2, 2, 53), 40%, rgb(0, 0, 0));
         text-align: center;
         padding: 8vh; 
-         
-        
     } 
 
     .title {
@@ -35,7 +32,26 @@
 
     .profile{
         width: 120px; 
-        border-radius: 10rem;
+        border-radius: 10rem; 
+        /* visibility: hidden;  */
+    }  
+
+
+    .ability {
+        display: flex;
+        border-top: 1.8px solid white ;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .minicard{ 
+        border-radius: .2rem;
+        background-color: #eee ;
+        color: #222; 
+        padding: 8px; 
+        margin-top: 15px; 
+        margin-left: 10px;
+        width: 50%;
+    
     }
 
 
