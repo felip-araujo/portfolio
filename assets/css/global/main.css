@@ -45,13 +45,12 @@
     .minicard{  
         text-align: center;
         border-radius: .2rem;
-        background-color: #eee ;
-        color: #222; 
+        background-color: #eeeeee49 ;
+        color: white; 
         padding: 8px; 
         margin-top: 15px; 
         margin-right: 5px;
         width: 50%;
-    
     }
 
 
