@@ -39,12 +39,12 @@
 
     .ability {
         display: flex;
-        text-align: left; 
-        margin-left: -15px;
+        text-align: center; 
+       
     
     }
     .minicard{  
-        text-align: left;
+        text-align: center;
         border-radius: .2rem;
         background-color: #eeeeee49 ;
         color: white; 
@@ -54,17 +54,7 @@
         margin-left: 0px;
         width: 50%; 
         display: flex;
-    } 
-
-    .fa-solid, .fa-code{
-        
-        color: white;  
-        margin-top: 5px; 
-        margin-right: 5px;
-        width: 16%; 
-
     }
-
 
 }
 
