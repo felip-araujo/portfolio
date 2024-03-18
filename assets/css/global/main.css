@@ -55,6 +55,14 @@
         width: 50%; 
        
     } 
+    
+    .social-medias{
+    
+        color: white; 
+        padding: 15px ;
+        background-color: red;
+        height: 80%;
+    }
 
     /* Definindo a animação de entrada */
 @keyframes fadeIn {
