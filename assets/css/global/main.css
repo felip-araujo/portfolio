@@ -185,14 +185,14 @@ img {
 /* Fundo */
 body {
     
-    background-image: url(./assets/css/image/programming-background-.jpg);
+    background-image: url(./assets/css/image/programming-background.jpg);
     color: #fff; /* Texto branco */
 }
 
 /* Seção de cartão principal */
 .card {
     
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.664)), url(/assets/css/image/bannner-back.png);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.664)), url(/portfolio/assets/css/image/bannner-back.png);
     background-size: cover;
     background-position: center;
 }   
