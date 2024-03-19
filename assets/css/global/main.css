@@ -14,7 +14,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #362323;
+   
 }
 
 .container {
@@ -77,7 +77,7 @@ img {
 
 /* Seção Sobre Mim */
 .about {
-    background-color: #f9f9f9;
+   
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -184,7 +184,7 @@ img {
 
 /* Fundo */
 body {
-    background-color: #0a0a1d34; /* Azul escuro */
+    background-color: #000000; /* Azul escuro */
     color: #fff; /* Texto branco */
 }
 
@@ -195,7 +195,7 @@ body {
 
 /* Seção Sobre Mim */
 .about {
-    background-color: #252545; /* Azul um pouco mais claro */
+    background-image: linear-gradient(to left, #010107, #083258);
 }
 
 /* Seção de Projetos */
