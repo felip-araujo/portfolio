@@ -34,7 +34,7 @@ img {
 .card {
     background-color: #493838;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 80px;
+    padding: 90px;
     text-align: center;
     margin-bottom: 20px; 
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('/assets/css/image/bannner-back.png');
@@ -199,11 +199,13 @@ body {
 
 /* Seção Sobre Mim */
 .about {
-    background-image: linear-gradient(to left, #010107, #083258);
+    background-image: linear-gradient(to left, #010107, #083258); 
+
 } 
 
 img.img-about{
-    border-radius: 25px;
+    border-radius: 10px; 
+    width: 50%;
 }
 
 /* Seção de Projetos */
