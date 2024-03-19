@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-
 /* Reset de estilos padrão */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif; 
+    text-decoration: none;
 }
 
 /* Estilos gerais */
@@ -36,10 +36,11 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 130px;
     text-align: center;
-    margin-bottom: 0px; 
+    margin-bottom: 25px; 
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('/assets/css/image/bannner-back.png');
     background-size: cover;
-    background-position: center;
+    background-position: center; 
+    text-decoration: none;
     
 } 
 
@@ -53,7 +54,9 @@ img {
 } 
 
 .fa-brands{
-    margin-right: 10px;
+    margin-right: 10px; 
+    color: white;
+    
     
 } 
 
@@ -89,25 +92,44 @@ img {
     border-radius: 8px;
     padding: 4px 18px;
     margin: 0 5px; 
-    color: white
-}
+    color: white; 
+   
+
+} 
+
+h4.minicard{
+   color: white
+} 
+
 
 /* Seção Sobre Mim */
+
+.content-home2{
+    display: grid; 
+    
+    
+}
+
 .about {
-   
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 200px;
+    margin-bottom: 20px; 
+} 
+
+.text{
+    text-align: justify; 
+    background-color: rgba(0, 0, 0, 0.616);  
+    border-radius: 15px;
+    padding: 25px;
 }
 
 .description-b {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
+    font-size: 26px;
+    text-align: center; 
+    margin-bottom: 20px;
+} 
 
-.img-about {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
+.text{
+    margin-top: 0;
 }
 
 /* Seção de Projetos */
@@ -202,7 +224,7 @@ img {
 /* Fundo */
 body {
     
-    background-image: url(./assets/css/image/programming-background.jpg);
+    background-image: url(/portfolio/assets/css/image/programming-background.jpg);
     color: #fff; /* Texto branco */
 }
 
@@ -211,19 +233,17 @@ body {
     
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.849)), url(/portfolio/assets/css/image/bannner-back.png);
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }   
 
 /* Seção Sobre Mim */
 .about {
-    background-image: linear-gradient(to left, #010107, #083258); 
-
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.849)), url(/portfolio/assets/css/image/felipe-araujo-workspace.jpeg);
+    background-size: cover;
+    background-position: right;
 } 
 
-img.img-about{
-    border-radius: 10px; 
-    width: 50%;
-}
+
 
 /* Seção de Projetos */
 .projects {
