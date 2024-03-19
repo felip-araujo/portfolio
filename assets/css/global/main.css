@@ -64,15 +64,17 @@ img {
 .ability {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .minicard {
-    background-color: #fcfcfc8c;
+    /* background-color: #fcfcfca8;  */
+    border: 1px solid rgb(0, 255, 242); 
+    font-weight: 300;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 4px 18px;
     margin: 0 5px; 
-    color: #141414d2;
+    color: white
 }
 
 /* Seção Sobre Mim */
@@ -192,7 +194,7 @@ body {
 /* Seção de cartão principal */
 .card {
     
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.664)), url(/portfolio/assets/css/image/bannner-back.png);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.849)), url(/portfolio/assets/css/image/bannner-back.png);
     background-size: cover;
     background-position: center;
 }   
