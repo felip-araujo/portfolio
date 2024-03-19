@@ -185,7 +185,7 @@ img {
 /* Fundo */
 body {
     
-    background-image: url(/assets/css/image/programming-background-.jpg);
+    background-image: url(./assets/css/image/programming-background-.jpg);
     color: #fff; /* Texto branco */
 }
 
