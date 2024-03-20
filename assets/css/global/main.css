@@ -41,7 +41,6 @@ img {
     background-size: cover;
     background-position: center; 
     text-decoration: none;
-    
 } 
 
 .social-media {
@@ -102,7 +101,47 @@ h4.minicard{
 } 
 
 
+
+
+
+@media screen and (max-width: 767px) {
 /* Seção Sobre Mim */
+
+.content-home2{
+    display: grid;  
+    /* visibility: hidden; */
+    
+    
+}
+
+.about {
+    padding: 20px;
+    margin-bottom: 20px; 
+} 
+
+.text{
+    text-align: justify; 
+    background-color: rgba(0, 0, 0, 0.26);  
+    border-radius: 15px; 
+    border: 1px solid rgb(0, 255, 242); 
+    padding: 25px;
+}
+
+.description-b {
+    font-size: 26px; 
+    font-weight: 400;
+    text-align: center; 
+    margin-bottom: 5px;
+} 
+
+.text{
+    margin-top: 0;
+}    
+}
+
+
+@media screen and (min-width:1024px) {
+    /* Seção Sobre Mim */
 
 .content-home2{
     display: grid; 
@@ -148,6 +187,9 @@ h4.minicard{
     margin-bottom: 20px;
     flex-basis: calc(50% - 20px);
 }
+}
+
+
 
 /* Seção de Contato */
 .contact {
@@ -284,7 +326,8 @@ body {
         left: 50%;
         transform: translateX(-50%);
         z-index: 999;
-        animation: bounce 2s infinite;
+        animation: bounce 2s infinite; 
+        visibility: hidden;
     }
     
     .scroll-down-icon i {
@@ -313,6 +356,7 @@ body {
         left: 50%;
         transform: translateX(-50%);
         z-index: 999;
+        visibility: hidden;
         animation: bounce 2s infinite;
     }
     
@@ -342,6 +386,7 @@ body {
         transform: translateX(-50%);
         z-index: 999;
         animation: bounce 2s infinite;
+        visibility: hidden;
     }
     
     .scroll-down-icon i {
