@@ -457,7 +457,7 @@ body {
 @media screen and  (max-width: 767px){
     .scroll-down-icon {
         position: relative;
-        top: 27rem;
+        top: 28.5rem;
         left: .5%; 
         text-align: center;
         transform: translateX(-50%);
