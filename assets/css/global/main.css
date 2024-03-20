@@ -147,7 +147,6 @@ h4.minicard{
     display: grid;  
     /* visibility: hidden; */
     
-    
 }
 
 .about {
@@ -156,7 +155,7 @@ h4.minicard{
 } 
 
 .text{
-    text-align: justify; 
+    text-align: left; 
     background-color: rgba(0, 0, 0, 0.26);  
     border-radius: 15px; 
     border: 1px solid rgb(0, 255, 242); 
@@ -173,6 +172,20 @@ h4.minicard{
 .text{
     margin-top: 0;
 }    
+
+.img-abt{
+      
+    width: 50%;
+    margin-left: 25%; 
+    margin-bottom: 8px;
+    text-align: center;
+    
+} 
+
+.img-in {
+    border-radius: .4rem;
+}
+
 }
 
 
@@ -352,12 +365,22 @@ body {
 }   
 
 /* Seção Sobre Mim */
+
+
 .about {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.849)), url(/portfolio/assets/css/image/felipe-araujo-workspace.jpeg);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.844)), url(/portfolio/assets/css/image/felipe-araujo-workspace.jpeg);
     background-size: cover;
     background-position: right;
 } 
 
+@media screen and (max-width: 767px) {
+    .about {
+        
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), 10%, rgba(0, 0, 0, 0.744)), url(/portfolio/assets/css/image/felipe-araujo-workspace.jpeg);
+        background-size: center;
+        background-position: center;
+    } 
+}
 
 
 /* Seção de Projetos */
