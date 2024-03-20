@@ -103,7 +103,43 @@ h4.minicard{
 
 
 
+/* sobre mim  mobile */
+@media screen and (max-width: 767px) {
+/* Seção Sobre Mim */
 
+.content-home2{
+    display: grid;  
+    /* visibility: hidden; */
+    
+    
+}
+
+.about {
+    padding: 20px;
+    margin-bottom: 20px; 
+} 
+
+.text{
+    text-align: justify; 
+    background-color: rgba(0, 0, 0, 0.26);  
+    border-radius: 15px; 
+    border: 1px solid rgb(0, 255, 242); 
+    padding: 25px;
+}
+
+.description-b {
+    font-size: 26px; 
+    font-weight: 400;
+    text-align: center; 
+    margin-bottom: 5px;
+} 
+
+.text{
+    margin-top: 0;
+}    
+}
+
+/* sobre mim  mobile */
 @media screen and (max-width: 767px) {
 /* Seção Sobre Mim */
 
@@ -140,8 +176,44 @@ h4.minicard{
 }
 
 
-@media screen and (min-width:1024px) {
+/* sobre mim  tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     /* Seção Sobre Mim */
+    
+    .content-home2{
+        display: grid;  
+        /* visibility: hidden; */
+        
+        
+    }
+    
+    .about {
+        padding: 20px;
+        margin-bottom: 20px; 
+    } 
+    
+    .text{
+        text-align: justify; 
+        background-color: rgba(0, 0, 0, 0.26);  
+        border-radius: 15px; 
+        border: 1px solid rgb(0, 255, 242); 
+        padding: 25px;
+    }
+    
+    .description-b {
+        font-size: 26px; 
+        font-weight: 400;
+        text-align: center; 
+        margin-bottom: 5px;
+    } 
+    
+    .text{
+        margin-top: 0;
+    }    
+    }
+
+/* sobre mim  desktop */
+@media screen and (min-width:1024px) {
 
 .content-home2{
     display: grid; 
@@ -156,8 +228,9 @@ h4.minicard{
 
 .text{
     text-align: justify; 
-    background-color: rgba(0, 0, 0, 0.616);  
-    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.26);  
+    border-radius: 15px; 
+    border: 1px solid rgb(0, 255, 242); 
     padding: 25px;
 }
 
