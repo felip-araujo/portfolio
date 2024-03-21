@@ -152,7 +152,8 @@ h4.minicard{
     letter-spacing: .5px;
     line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
     font-weight: 300;
-    padding: 30px;
+    padding: 30px; 
+    background-color: rgba(0, 0, 0, 0.795);
 }
 
 .text p {
