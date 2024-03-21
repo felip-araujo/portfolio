@@ -357,14 +357,20 @@ h4.minicard {
 /* Seção de Contato */
 .contact {
     background-color: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 100px;
+    margin-bottom: 20px; 
+    margin: 25px; 
+    border-radius: 10px; 
+    text-align: center;
 }
 
-.contact ul {
+.contact ul { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
     list-style: none;
+    text-align: center;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .contact ul li {
@@ -474,6 +480,11 @@ body {
 }
 
 
+
+
+
+
+
 /* Seção de Projetos */
 .projects {
     background-color: #1e1e3f;
@@ -487,7 +498,8 @@ body {
 
 /* Seção de Contato */
 .contact {
-    background-color: #252545;
+    
+    background-color: #1e1e1e;
     /* Azul um pouco mais claro */
 }
 
