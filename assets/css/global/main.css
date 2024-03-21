@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Reset de estilos padrão */
 * {
@@ -361,85 +361,6 @@ li {
 
 
 
-/* Seção de Contato */
-.contact {
-    background-color: #f9f9f9;
-    padding: 100px;
-    margin-bottom: 20px; 
-    margin: 25px; 
-    border-radius: 10px; 
-    text-align: center;
-}
-
-.contact ul { 
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr);
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin-top: 35px;
-}
-
-.contact ul li {
-    margin-bottom: 5px;
-}
-
-/* Seção de Habilidades */
-.skills {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.skill {
-    margin-bottom: 20px;
-}
-
-.skill h3 {
-    margin-bottom: 10px;
-}
-
-.skill ul {
-    list-style: none;
-    padding: 0;
-}
-
-.skill ul li {
-    margin-bottom: 5px;
-}
-
-/* Seção de Experiência Profissional */
-.experience {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.job {
-    margin-bottom: 20px;
-}
-
-.job h3 {
-    margin-bottom: 10px;
-}
-
-/* Seção de Educação */
-.education {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.degree {
-    margin-bottom: 20px;
-}
-
-.degree h3 {
-    margin-bottom: 10px;
-}
-
-/* Cores para o dark theme com tons azulados e texto branco */
-
 /* Fundo */
 body {
 
@@ -465,6 +386,7 @@ body {
     background-position: right;
 }
 
+
 /* para tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
@@ -486,47 +408,6 @@ body {
     }
 }
 
-
-
-
-
-
-
-/* Seção de Projetos */
-.projects {
-    background-color: #1e1e3f;
-    /* Azul escuro */
-}
-
-.project {
-    background-color: #252545;
-    /* Azul um pouco mais claro */
-}
-
-/* Seção de Contato */
-.contact {
-    
-    background-color: #1e1e1e;
-    /* Azul um pouco mais claro */
-}
-
-/* Seção de Habilidades */
-.skills {
-    background-color: #1e1e3f;
-    /* Azul escuro */
-}
-
-/* Seção de Experiência Profissional */
-.experience {
-    background-color: #252545;
-    /* Azul um pouco mais claro */
-}
-
-/* Seção de Educação */
-.education {
-    background-color: #1e1e3f;
-    /* Azul escuro */
-}
 
 
 
@@ -642,4 +523,4 @@ body {
             transform: translateY(-10px);
         }
     }
-} */
+}
