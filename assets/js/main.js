@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const scrollDownIconAbout = document.querySelector('.scroll-down-icon');
     const scrollDownIconSkills = document.querySelector('.ability');
     const aboutSection = document.querySelector('#about');
-    const skillsSection = document.querySelector('#skills');
+    const skillsSection = document.querySelector('#projects');
 
     scrollDownIconAbout.addEventListener('click', function() {
         smoothScroll(aboutSection);
