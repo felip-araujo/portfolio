@@ -101,8 +101,6 @@ h4.minicard{
 .content-home2{
     display: grid;  
     /* visibility: hidden; */
-    
-    
 }
 
 .about {
@@ -131,9 +129,6 @@ h4.minicard{
     margin-top: 0;
 }    
 }
-
-
-
 .content-home2{
     display: grid; 
     grid-template-columns: repeat(1, 1fr);
@@ -148,7 +143,7 @@ h4.minicard{
 
 .text {
     margin-top: 0;
-    text-align: left;
+    text-align:start;
     letter-spacing: .5px;
     line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
     font-weight: 300;
@@ -165,17 +160,14 @@ h4.minicard{
     font-weight: 400;
     text-align: center;
     margin-top: 20px; 
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 } 
-
-.text{
-    margin-top: 0;
-}    
+   
 
 .img-abt{
       
     width: center; 
-    padding: 80px; 
+    padding: 60px; 
     padding-top: 5px;
     padding-bottom: 5px;
     
